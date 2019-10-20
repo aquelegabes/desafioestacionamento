@@ -1,9 +1,0 @@
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/bin/Debug/netcoreapp2.2/EstacionamentoDomain.deps.json
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/bin/Debug/netcoreapp2.2/EstacionamentoDomain.dll
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/bin/Debug/netcoreapp2.2/EstacionamentoDomain.pdb
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.csproj.CoreCompileInputs.cache
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.AssemblyInfoInputs.cache
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.AssemblyInfo.cs
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.dll
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.pdb
-/home/krypton/Documentos/GIT/DesafioEstacionamento/EstacionamentoDomain/obj/Debug/netcoreapp2.2/EstacionamentoDomain.csprojAssemblyReference.cache
