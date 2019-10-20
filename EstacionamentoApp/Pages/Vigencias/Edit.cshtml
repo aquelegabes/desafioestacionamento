@@ -1,0 +1,41 @@
+﻿@page "{id:int}"
+@using EstacionamentoDomain.Entities
+@model EstacionamentoApp.Pages.Vigencias.EditModel
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="container">
+    <form method="post">
+        <input asp-for="Vigencia.Id" type="hidden" />
+        <input asp-for="Vigencia.Ativo" type="hidden" />
+        <input asp-for="Vigencia.VigenciaInicio" type="hidden" />
+        <input asp-for="Vigencia.VigenciaFim" type="hidden" />
+        <div class="row">
+            <div class="col-md-3">
+                <label asp-for="Vigencia.ValorHora"></label>
+                <input asp-for="Vigencia.ValorHora" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="Vigencia.ValorHora"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label asp-for="Vigencia.HoraAdicional"></label>
+                <input asp-for="Vigencia.HoraAdicional" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="Vigencia.HoraAdicional"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <span class="alert-danger" asp-for="ErrorMessage">@Model.ErrorMessage</span>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>

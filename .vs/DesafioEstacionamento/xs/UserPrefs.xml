@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{2C9A5169-8147-4D1D-BD0D-6112D7C10695}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/share/dotnet/sdk/2.2.109/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets">
+    <Files>
+      <File FileName="../../../../../usr/share/dotnet/sdk/2.2.109/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets" Line="132" Column="66" />
+      <File FileName="../../../../../usr/share/dotnet/sdk/2.2.109/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="213" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DesafioEstacionamento" expanded="True">
+            <Node name="APP" expanded="True">
+              <Node name="EstacionamentoApp" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.APP.EstacionamentoApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,48 @@
+﻿@page "{id:int}"
+@using EstacionamentoDomain.Entities
+@model EstacionamentoApp.Pages.Registros.EditModel
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="container">
+    <form method="post">
+        <input asp-for="Registro.Id" type="hidden" />
+        <input asp-for="Registro.Ativo" type="hidden" />
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Registro.Placa"></label>
+                <input asp-for="Registro.Placa" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="Registro.Placa"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Registro.Chegada"></label>
+                <input asp-for="Registro.Chegada" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="Registro.Chegada"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <label asp-for="Registro.Saida"></label>
+                <input asp-for="Registro.Saida" class="form-control"/>
+                <span class="alert-danger" asp-validation-for="Registro.Saida"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <span class="alert-danger" asp-for="ErrorMessage">@Model.ErrorMessage</span>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>

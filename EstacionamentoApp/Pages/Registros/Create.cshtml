@@ -1,0 +1,27 @@
+﻿@page 
+@using EstacionamentoDomain.Entities
+@model EstacionamentoApp.Pages.Registros.CreateModel
+@{
+    ViewData["Title"] = "Novo registro";
+}
+
+<div class="container">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Registro.Placa"></label>
+                <input asp-for="Registro.Placa" class="form-control" />
+                <span class="alert-danger" asp-validation-for="Registro.Placa"></span>
+            </div>
+            <div class="col-md-3">
+                <button style="margin-top: 2em" type="submit" class="btn btn-primary right">Enviar</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9">
+                <span class="alert-danger" asp-for="ErrorMessage">@Model.ErrorMessage</span>
+            </div>
+        </div>
+    </form>
+</div>
